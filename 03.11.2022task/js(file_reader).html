@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <label class="center">Open Text File</label><br><br>
+    <input type='file' accept='text/plain' class="center" onchange='openFileText(event)'><br>
+    
+    <label class="center">Open Image File</label><br><br>
+    <input type='file' class="center" accept='image/*' onchange='openFileImage(event)'><br>
+    <img id='output' class="center width">
+    
+    <script src="jsfilereader.js"></script> 
+</body>
+</html>

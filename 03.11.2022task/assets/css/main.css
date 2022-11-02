@@ -1,0 +1,11 @@
+input {
+    cursor: pointer;
+}
+.center {
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+.width {
+    max-width: 300px;
+    max-height: 200px;
+}
